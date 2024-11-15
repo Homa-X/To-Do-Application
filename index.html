@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do Application</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button id="addTaskButton">Add Task</button>
+            <button id="resetButton">Reset</button>
+        </div>
+        <p id="errorMessage" class="error-message"></p>
+        <div class="task-lists">
+            <div class="todo-list">
+                <h2>To-Do List</h2>
+                <ul id="todoList"></ul>
+            </div>
+            <div class="completed-list">
+                <h2>Completed Tasks</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="cover-text">
+        JENSEN<br />Course: FRK24S <br />Project: To-Do Application
+        <br />Student: Homayoun Khanmohammadi<br />Mentors: Sibar AI-Ahni and Markus Bellika
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

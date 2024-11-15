@@ -1,0 +1,78 @@
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    background: url('Todo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.591);
+    padding: 20px;
+    border-radius: 10px;
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.task-input input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+
+}
+.task-input button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Courier New", Courier, monospace;
+
+}
+.error-message {
+    color: red;
+    text-align: center;
+}
+.task-lists {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.task-lists ul {
+    list-style: none;
+    padding: 0;
+}
+.task-lists li {
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-lists button {
+    margin-left: 5px;
+    cursor: pointer;
+}
+.cover-text {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align: center;
+    z-index: 1;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 87%;
+    
+  }
+

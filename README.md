@@ -15,7 +15,7 @@ Welcome to my **To-Do Application** – a simple, user-friendly web app that hel
 ### 🏠 Home Page
 ![Home](Screenshots/Home.PNG)
 
-### ✏️ Edit / Save / Complete / Delete Task
+### ✏️ Edit / Save / Complete / Delete / Reset Task
 ![Task Controls](Screenshots/Edit_Save_Complete_Delete.PNG)
 
 ### ❌ Empty Task Error
